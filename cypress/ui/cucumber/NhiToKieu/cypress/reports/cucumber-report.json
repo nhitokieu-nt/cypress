@@ -1,0 +1,618 @@
+[
+  {
+    "description": "        As a user, I want to add book to collection",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-book-to-collection;add-book-to-collection-successfully",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add book to collection successfully",
+        "before": [
+          {
+            "result": {
+              "duration": 1335000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user logs into application",
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "the book named \"Git Pocket Guide\" is not in users collection",
+            "result": {
+              "duration": 1058000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user is on Book Store page",
+            "result": {
+              "duration": 11502000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user selects a book \"Git Pocket Guide\"",
+            "result": {
+              "duration": 4200000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks on Add To Your Collection",
+            "result": {
+              "duration": 270000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "an alert message \"Book added to your collection.\" is shown",
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "book is shown in users profile",
+            "result": {
+              "duration": 4150000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 4,
+            "name": "@token"
+          }
+        ]
+      }
+    ],
+    "id": "add-book-to-collection",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Add book to collection",
+    "uri": "cypress\\e2e\\add-book.feature"
+  },
+  {
+    "description": "    As a user, I would like to delete book from my collection successfully",
+    "elements": [
+      {
+        "description": "",
+        "id": "delete-book;delete-book-successfully",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Delete book successfully",
+        "before": [
+          {
+            "result": {
+              "duration": 403000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user logs into application",
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "there is a book named \"Git Pocket Guide\"",
+            "result": {
+              "duration": 471000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user is on the Profile page",
+            "result": {
+              "duration": 9058000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user search book \"Git Pocket Guide\"",
+            "result": {
+              "duration": 608000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks on Delete icon",
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks on OK button",
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user clicks on OK button of alert \"Book deleted.\"",
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the book is not shown",
+            "result": {
+              "duration": 543000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@token"
+          }
+        ]
+      }
+    ],
+    "id": "delete-book",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Delete book",
+    "uri": "cypress\\e2e\\delete-book.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-book-with-multiple-results;search-book-with-multiple-results;;2",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Search book with multiple results",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 4,
+            "name": "the user is on Book Store page",
+            "result": {
+              "duration": 8279000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs book name",
+            "result": {
+              "duration": 492000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "keyword"
+                ]
+              },
+              {
+                "cells": [
+                  "\u003ckeyword\u003e"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "all books match with input criteria will be displayed",
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-book-with-multiple-results;search-book-with-multiple-results;;3",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Search book with multiple results",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 4,
+            "name": "the user is on Book Store page",
+            "result": {
+              "duration": 7841000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs book name",
+            "result": {
+              "duration": 419000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "keyword"
+                ]
+              },
+              {
+                "cells": [
+                  "\u003ckeyword\u003e"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "all books match with input criteria will be displayed",
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-book-with-multiple-results",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search book with multiple results",
+    "uri": "cypress\\e2e\\search-book.feature"
+  },
+  {
+    "description": "    As a student, I want to register student form",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "Execute before each scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on Student Registration Form page",
+            "result": {
+              "duration": 6614000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "register-student-form;register-student-form-successfully;;2",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Register student form successfully",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user inputs valid data",
+            "result": {
+              "duration": 3911000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "email",
+                  "gender",
+                  "mobile",
+                  "dateOfBirth",
+                  "subjects",
+                  "hobbies",
+                  "address",
+                  "picture",
+                  "state",
+                  "city"
+                ]
+              },
+              {
+                "cells": [
+                  "\u003cfirstName\u003e",
+                  "\u003clastName\u003e",
+                  "\u003cemail\u003e",
+                  "\u003cgender\u003e",
+                  "\u003cmobile\u003e",
+                  "\u003cdateOfBirth\u003e",
+                  "\u003csubjects\u003e",
+                  "\u003chobbies\u003e",
+                  "\u003caddress\u003e",
+                  "\u003cpicture\u003e",
+                  "\u003cstate\u003e",
+                  "\u003ccity\u003e"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user clicks on Submit button",
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "a successful message \"Thanks for submitting the form\" is shown",
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "all information of the student form is shown correctly",
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "Execute before each scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on Student Registration Form page",
+            "result": {
+              "duration": 5796000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "register-student-form;register-student-form-successfully;;3",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Register student form successfully",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user inputs valid data",
+            "result": {
+              "duration": 773000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "email",
+                  "gender",
+                  "mobile",
+                  "dateOfBirth",
+                  "subjects",
+                  "hobbies",
+                  "address",
+                  "picture",
+                  "state",
+                  "city"
+                ]
+              },
+              {
+                "cells": [
+                  "\u003cfirstName\u003e",
+                  "\u003clastName\u003e",
+                  "\u003cemail\u003e",
+                  "\u003cgender\u003e",
+                  "\u003cmobile\u003e",
+                  "\u003cdateOfBirth\u003e",
+                  "\u003csubjects\u003e",
+                  "\u003chobbies\u003e",
+                  "\u003caddress\u003e",
+                  "\u003cpicture\u003e",
+                  "\u003cstate\u003e",
+                  "\u003ccity\u003e"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user clicks on Submit button",
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "a successful message \"Thanks for submitting the form\" is shown",
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "all information of the student form is shown correctly",
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-student-form",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Register Student Form",
+    "uri": "cypress\\e2e\\student-registration-form.feature"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "ajv": "^7.2.4",
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress": "^10.10.0",
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-real-events": "^1.7.2",
+    "cypress-xpath": "^2.0.1",
+    "dayjs": "^1.11.6"
+  }
+}
